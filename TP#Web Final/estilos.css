@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Fugaz+One&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.container {
+    width: 800px;
+    max-width: 100%; 
+    margin: 0 auto; 
+    color: rgb(83, 106, 207);
+    
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%; 
+        padding: 0 10px; 
+    }
+}
+
+div{
+    color: rgb(83, 106, 207);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+body{
+    font-family: "Space Mono" , monospace;
+}
+
+header{
+    text-align: center;
+    padding-top: 10%;
+    
+}
+
+h1{
+    background-color:rgb(26, 29, 61) ;
+    font-family: "Anton SC",sans-serif;
+    color: rgb(209, 62, 153);
+    font-size: 3rem;
+}
+
+h3{
+    font-family: "Bebas Neue", serif;
+    color: rgb(209, 62, 153);
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;  
+}
+
+nav{
+    text-align: center;
+}
+
+footer{
+    color: rgb(209, 62, 153);
+    text-align: center;
+    padding: 50px;
+}
+
+.img-flecha {
+    width: 4%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+@media (max-width: 800px) {
+    .img-flecha {
+        width: 12%; 
+    }
+}
